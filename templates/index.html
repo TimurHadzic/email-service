@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>E-mail sending service</title>
+</head>
+<body>
+<div class="container">
+    <br>
+    <br>
+    <h1>E-mail sending service</h1>
+    <br>
+    <br>
+    <form action="/send-email">
+        <div class="form-group">
+            <label for="from">From: </label>
+            <input type="email" class="form-control" name="from" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="to">To: </label>
+            <input type="email" class="form-control" name="to">
+        </div>
+        <div class="form-group">
+            <label for="cc">CC: </label>
+            <input type="email" class="form-control" name="cc" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject: </label>
+            <input type="text" class="form-control" name="subject">
+        </div>
+        <div class="form-group">
+            <label for="importance">Importance: </label>
+            <input type="text" class="form-control" name="importance" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="content">Content: </label>
+            <input type="text" class="form-control" name="content">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
